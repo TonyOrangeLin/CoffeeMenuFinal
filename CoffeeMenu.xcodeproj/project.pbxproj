@@ -278,6 +278,9 @@
 					C809C951194441F70027B54C = {
 						DevelopmentTeam = V6XG3Y5G22;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.iOS = {
 								enabled = 1;
 							};

@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>23B66323-92D0-435D-82DA-829395021565</string>
+	<string>2432272C-E8D9-477D-99A0-854B735CBAE3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>CoffeeMenu</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7E25C48F-1E01-436D-8337-467CA214638F</key>
-		<string>https://github.com/TrashTonyLin/CoffeMenu.git</string>
+		<key>8DAD767E-90A7-46C5-B12E-EF2EDF132753</key>
+		<string>https://github.com/TrashTonyLin/CoffeeMenuFinal.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CoffeeMenu.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7E25C48F-1E01-436D-8337-467CA214638F</key>
+		<key>8DAD767E-90A7-46C5-B12E-EF2EDF132753</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/TrashTonyLin/CoffeMenu.git</string>
+	<string>https://github.com/TrashTonyLin/CoffeeMenuFinal.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7E25C48F-1E01-436D-8337-467CA214638F</string>
+	<string>8DAD767E-90A7-46C5-B12E-EF2EDF132753</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7E25C48F-1E01-436D-8337-467CA214638F</string>
+			<string>8DAD767E-90A7-46C5-B12E-EF2EDF132753</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CoffeMenu</string>
+			<string>CoffeeMenuFinal</string>
 		</dict>
 	</array>
 </dict>
