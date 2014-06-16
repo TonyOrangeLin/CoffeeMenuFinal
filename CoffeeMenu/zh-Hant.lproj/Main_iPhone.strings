@@ -1,0 +1,45 @@
+
+/* Class = "IBUILabel"; text = "Second View"; ObjectID = "29h-N2-YGT"; */
+"29h-N2-YGT.text" = "Second View";
+
+/* Class = "IBUIButton"; normalTitle = "尋找附近咖啡館"; ObjectID = "B0q-GY-C3j"; */
+"B0q-GY-C3j.normalTitle" = "尋找附近咖啡館";
+
+/* Class = "IBUIViewController"; title = "First"; ObjectID = "CZ4-MO-1fc"; */
+"CZ4-MO-1fc.title" = "First";
+
+/* Class = "IBUIButton"; normalTitle = "回首頁"; ObjectID = "CcA-CD-2Ts"; */
+"CcA-CD-2Ts.normalTitle" = "回首頁";
+
+/* Class = "IBUIViewController"; title = "Second"; ObjectID = "QUy-BD-bpt"; */
+"QUy-BD-bpt.title" = "Second";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "V4u-wm-A6n"; */
+"V4u-wm-A6n.text" = "Label";
+
+/* Class = "IBUITabBarItem"; title = "Second"; ObjectID = "Z7h-1E-pvt"; */
+"Z7h-1E-pvt.title" = "Second";
+
+/* Class = "IBUILabel"; text = "First View"; ObjectID = "Zhg-ve-WU7"; */
+"Zhg-ve-WU7.text" = "First View";
+
+/* Class = "IBUITabBarItem"; title = "CoffeeMenu"; ObjectID = "oNI-cp-yk0"; */
+"oNI-cp-yk0.title" = "CoffeeMenu";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "qG3-C0-9EG"; */
+"qG3-C0-9EG.text" = "Label";
+
+/* Class = "IBUITabBarItem"; title = "CoffeeMap"; ObjectID = "sJ3-yM-22o"; */
+"sJ3-yM-22o.title" = "咖啡地圖";
+
+/* Class = "IBUITabBarItem"; title = "CoffeeMenu"; ObjectID = "u1e-5L-l1D"; */
+"u1e-5L-l1D.title" = "咖啡清單";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "Azz-y8-O25"; */
+"Azz-y8-O25.title" = "歷史記錄";
+
+/* Class = "IBUITabBarItem"; title = "CoffeeMenu"; ObjectID = "u1e-5L-l1D"; */
+"u1e-5L-l1D.title" = "咖啡清單";
+
+/* Class = "IBUITabBarItem"; title = "CoffeeMenu"; ObjectID = "oNI-cp-yk0"; */
+"oNI-cp-yk0.title" = "咖啡清單";

@@ -1,0 +1,36 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "8x3-Kq-plG"; */
+"8x3-Kq-plG.text" = "Title";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "Azz-y8-O25"; */
+"Azz-y8-O25.title" = "History";
+
+/* Class = "IBUIButton"; normalTitle = "尋找附近咖啡館"; ObjectID = "B0q-GY-C3j"; */
+"B0q-GY-C3j.normalTitle" = "Find Nearest Cofe";
+
+/* Class = "IBUIViewController"; title = "First"; ObjectID = "CZ4-MO-1fc"; */
+"CZ4-MO-1fc.title" = "First";
+
+/* Class = "IBUIButton"; normalTitle = "回首頁"; ObjectID = "CcA-CD-2Ts"; */
+"CcA-CD-2Ts.normalTitle" = "Homepage";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "V4u-wm-A6n"; */
+"V4u-wm-A6n.text" = "Label";
+
+/* Class = "IBUILabel"; text = "First View"; ObjectID = "Zhg-ve-WU7"; */
+"Zhg-ve-WU7.text" = "First View";
+
+/* Class = "IBUITabBarItem"; title = "CoffeeMenu"; ObjectID = "oNI-cp-yk0"; */
+"oNI-cp-yk0.title" = "CoffeeMenu";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "qG3-C0-9EG"; */
+"qG3-C0-9EG.text" = "Label";
+
+/* Class = "IBUITabBarItem"; title = "CoffeeMap"; ObjectID = "sJ3-yM-22o"; */
+"sJ3-yM-22o.title" = "CoffeeMap";
+
+/* Class = "IBUITabBarItem"; title = "CoffeeMenu"; ObjectID = "u1e-5L-l1D"; */
+"u1e-5L-l1D.title" = "CoffeeMenu";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "vww-fN-hVl"; */
+"vww-fN-hVl.text" = "Subtitle";

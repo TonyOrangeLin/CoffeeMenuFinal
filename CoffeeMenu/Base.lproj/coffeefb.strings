@@ -1,0 +1,39 @@
+/* 
+  coffeefb.strings
+  CoffeeMenu
+
+  Created by tony on 2014/6/16.
+  Copyright (c) 2014年 max005. All rights reserved.
+*/
+/* Americano */
+"Americano" = "Americano";
+
+/* Cappuccino */
+"Cappucino" = "Cappucino";
+
+/* Caramel Macchiato */
+"Caramel Macchiato" = "Caramel Macchiato";
+
+/* Espresso Con Panna */
+"Espresso Con Panna" = "Espresso Con Panna";
+
+/* Espresso Macchiato */
+"Espresso Macchiato" = "Espresso Macchiato";
+
+/* latte */
+"Latte" = "Latte";
+
+/* Mocha */
+"Mocha" = "Mocha";
+
+/*
+ 
+ @"Latte"
+ , @"Mocha"
+ , @"Cappuccino"
+ , @"Espresso Con Panna"
+ , @"Espresso Macchiato"
+ , @"Americano"
+ , @"Caramel Macchiato"
+ , nil];
+*/

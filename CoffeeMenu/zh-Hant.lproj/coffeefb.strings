@@ -1,0 +1,27 @@
+/* 
+  coffeefb.strings
+  CoffeeMenu
+
+  Created by tony on 2014/6/16.
+  Copyright (c) 2014年 max005. All rights reserved.
+*/
+/* Americano */
+"Americano" = "美式咖啡";
+
+/* Cappuccino */
+"Cappucino" = "卡布奇諾";
+
+/* Caramel Macchiato */
+"Caramel Macchiato" = "焦糖瑪奇朵";
+
+/* Espresso Con Panna */
+"Espresso Con Panna" = "康寶藍";
+
+/* Espresso Macchiato */
+"Espresso Macchiato" = "瑪奇朵";
+
+/* latte */
+"Latte" = "拿鐵";
+
+/* Mocha */
+"Mocha" = "摩卡咖啡";

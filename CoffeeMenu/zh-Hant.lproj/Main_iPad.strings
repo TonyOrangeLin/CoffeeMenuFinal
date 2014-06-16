@@ -1,0 +1,15 @@
+
+/* Class = "IBUITextView"; text = "Loaded by the Second View Controller — an instance of SecondViewController — specified in the app delegate."; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by the Second View Controller — an instance of SecondViewController — specified in the app delegate.";
+
+/* Class = "IBUITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "First";
+
+/* Class = "IBUITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Second";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "q6N-gR-jJv"; */
+"q6N-gR-jJv.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";
