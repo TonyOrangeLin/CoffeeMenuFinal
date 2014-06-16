@@ -25,7 +25,7 @@
     pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
     pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
     pageControl.backgroundColor = [UIColor whiteColor];
-
+    
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
@@ -42,7 +42,8 @@
         controller.managedObjectContext = self.managedObjectContext;
         //MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
         //controller.managedObjectContext = self.managedObjectContext;
-
+    }
+    
     if([[NSUserDefaults standardUserDefaults] boolForKey:@"Style_Enabled"])
     {
         
@@ -58,9 +59,6 @@
         pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
         pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
         pageControl.backgroundColor = [UIColor whiteColor];
-    }
-   
-    
     }
 
     return YES;

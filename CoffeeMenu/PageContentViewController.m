@@ -96,31 +96,29 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     UIImage *img = [info objectForKey:UIImagePickerControllerOriginalImage];
+    NSData *imageData = UIImageJPEGRepresentation(img, 0.7);
     
-    /*
-    FBPhotoParams *params = [[FBPhotoParams alloc] init];
-    params.photos = @[img];
+    NSManagedObjectContext *context = [self managedObjectContext];
+    NSManagedObject *newCoffee = [NSEntityDescription insertNewObjectForEntityForName:@"Coffee" inManagedObjectContext:context];
     
-    
-     [FBDialogs presentShareDialogWithPhotoParams:params
-                                     clientState:nil
-                                         handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
-                                             if (error) {
-                                                 NSLog(@"Error: %@", error.description);
-                                             } else {
-                                                 NSLog(@"Success!");
-                                             }
-                                             [self dismissViewControllerAnimated:YES completion:NULL];
-                                         }];
-     */
     NSString *coffee2 =[self.imageFile substringToIndex:(self.imageFile.length - 4)];
     NSString *coffee = [[NSBundle mainBundle] localizedStringForKey:coffee2 value:coffee2 table:@"coffeefb"];
-    //NSString *text = [NSString stringWithFormat:@"I have brewed a cup of %@ with CoffeeMenu" , coffee];
     NSString *head = I_HAVE_BREWED_A_CUP_OF;
     NSString *tail = WITH_COFFEEMENU;
     NSString *text = [NSString stringWithFormat:@"%@ %@ %@" , head , coffee , tail];
-    //NSString *text = [NSString stringWithFormat: I_HAVE_BREWED_A_CUP_OF+ @"%@" +  with [WITH_COFFEEMENU , coffee];
-
+    
+    [newCoffee setValue:[NSDate date] forKey:@"date"];
+    [newCoffee setValue:coffee2 forKey:@"name"];
+    [newCoffee setValue:imageData forKey:@"image"];
+    
+    // Save the context.
+    NSError *error = nil;
+    if (![context save:&error]) {
+        // Replace this implementation with code to handle the error appropriately.
+        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        abort();
+    }
     [FBDialogs presentOSIntegratedShareDialogModallyFrom:picker
                                              initialText:text
                                                image:img
@@ -155,5 +153,13 @@
                                                  }];
 }
 
+- (NSManagedObjectContext *)managedObjectContext {
+    NSManagedObjectContext *context = nil;
+    id delegate = [[UIApplication sharedApplication] delegate];
+    if ([delegate performSelector:@selector(managedObjectContext)]) {
+        context = [delegate managedObjectContext];
+    }
+    return context;
+}
 
 @end

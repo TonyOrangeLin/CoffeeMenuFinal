@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 #import "FirstViewController.h"
 
-@interface PageContentViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+@interface PageContentViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, NSFetchedResultsControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UIButton *IntoFBButton;
@@ -17,4 +18,5 @@
 @property NSString *titleText;
 @property NSString *imageFile;
 @property BOOL isfbEnable;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @end

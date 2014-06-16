@@ -99,7 +99,7 @@
 		EA06755C194EBE1700B890E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/coffeefb.strings; sourceTree = "<group>"; };
 		EA763B611948303A001342D2 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		EA763B621948303A001342D2 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		EAA4FCEC194C2435002D0D6C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EAA4FCEC194C2435002D0D6C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
 		EAA9268319461FD9008C93C6 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
 		EAA9268419461FD9008C93C6 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		EAA92686194620B2008C93C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -136,7 +136,6 @@
 		C809C949194441F70027B54C = {
 			isa = PBXGroup;
 			children = (
-				EAA4FCEC194C2435002D0D6C /* Settings.bundle */,
 				C809C95B194441F70027B54C /* CoffeeMenu */,
 				C809C980194441F80027B54C /* CoffeeMenuTests */,
 				C809C954194441F70027B54C /* Frameworks */,
@@ -190,6 +189,7 @@
 				EA067535194C65D600B890E4 /* MKMapView+ZoomLevel.m */,
 				C809C973194441F70027B54C /* Images.xcassets */,
 				C8FA51F8194DD36D00257043 /* Model.xcdatamodeld */,
+				EAA4FCEC194C2435002D0D6C /* Settings.bundle */,
 				EA06755A194EBE1100B890E4 /* coffeefb.strings */,
 				EA067553194EBD3900B890E4 /* PageContentViewController.strings */,
 				EA06754A194EACAC00B890E4 /* FirstViewController.strings */,
