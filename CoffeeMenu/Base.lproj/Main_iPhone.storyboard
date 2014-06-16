@@ -103,13 +103,13 @@
                     </tabBar>
                     <connections>
                         <segue destination="yne-oS-n0w" kind="relationship" relationship="viewControllers" id="Ekw-zl-S90"/>
-                        <segue destination="EhO-yX-IQL" kind="relationship" relationship="viewControllers" id="61Q-vG-oqp"/>
                         <segue destination="sUL-gi-KQC" kind="relationship" relationship="viewControllers" id="uOa-Di-4zx"/>
+                        <segue destination="EhO-yX-IQL" kind="relationship" relationship="viewControllers" id="61Q-vG-oqp"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-180" y="430"/>
+            <point key="canvasLocation" x="-132" y="436"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VcB-xG-JQL">
@@ -250,11 +250,11 @@
             </objects>
             <point key="canvasLocation" x="648" y="430"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - CoffeeHistory-->
         <scene sceneID="I8C-7o-2JF">
             <objects>
                 <navigationController id="sUL-gi-KQC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="first" id="hbL-gK-Mnj"/>
+                    <tabBarItem key="tabBarItem" title="CoffeeHistory" image="camera" id="hbL-gK-Mnj"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="0gL-eQ-AVs">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -310,7 +310,7 @@
                             <outlet property="delegate" destination="de5-kU-csP" id="yeb-0X-IUz"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Master" id="r2P-qm-C93"/>
+                    <navigationItem key="navigationItem" title="CoffeeHistory" id="r2P-qm-C93"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M5j-Fh-SKZ" sceneMemberID="firstResponder"/>
             </objects>
@@ -329,18 +329,18 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="7Oi-Po-Rbe">
-                                <rect key="frame" x="20" y="465" width="280" height="17"/>
+                                <rect key="frame" x="20" y="491" width="280" height="17"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8EH-WI-A5g">
-                                <rect key="frame" x="0.0" y="113" width="320" height="322"/>
+                                <rect key="frame" x="0.0" y="101" width="320" height="382"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpD-7f-qg7">
-                                <rect key="frame" x="82" y="70" width="157" height="43"/>
+                                <rect key="frame" x="20" y="62" width="280" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -349,7 +349,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Detail" id="1ID-K7-Qxd"/>
+                    <navigationItem key="navigationItem" id="1ID-K7-Qxd"/>
                     <connections>
                         <outlet property="coffeeName" destination="UpD-7f-qg7" id="XM5-gm-ecK"/>
                         <outlet property="detailDescriptionLabel" destination="7Oi-Po-Rbe" id="8aj-Rr-EqB"/>
@@ -363,8 +363,8 @@
     </scenes>
     <resources>
         <image name="cafe" width="64" height="64"/>
+        <image name="camera" width="64" height="64"/>
         <image name="facebook" width="325" height="325"/>
-        <image name="first" width="30" height="30"/>
         <image name="map" width="64" height="64"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

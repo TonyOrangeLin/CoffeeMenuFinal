@@ -36,7 +36,7 @@
         controller.managedObjectContext = self.managedObjectContext;
     } else {
         UITabBarController *tbc = (UITabBarController *)self.window.rootViewController;
-        UINavigationController *navigationController = tbc.viewControllers[2];
+        UINavigationController *navigationController = tbc.viewControllers[1];
         //UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
         MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
         controller.managedObjectContext = self.managedObjectContext;
