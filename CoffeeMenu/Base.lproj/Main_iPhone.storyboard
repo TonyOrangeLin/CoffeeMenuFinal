@@ -351,7 +351,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="1ID-K7-Qxd"/>
                     <connections>
+                        <outlet property="coffeeName" destination="UpD-7f-qg7" id="XM5-gm-ecK"/>
                         <outlet property="detailDescriptionLabel" destination="7Oi-Po-Rbe" id="8aj-Rr-EqB"/>
+                        <outlet property="image" destination="8EH-WI-A5g" id="LZZ-xP-dvb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7qT-GR-Ce3" sceneMemberID="firstResponder"/>

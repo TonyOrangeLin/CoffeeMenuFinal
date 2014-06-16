@@ -37,6 +37,10 @@
 
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"date"] description];
+        self.coffeeName.text = [self.detailItem valueForKey:@"name"];
+        
+        NSData *imgData = [self.detailItem valueForKey:@"image"];
+        [self.image setImage:[UIImage imageWithData:imgData]];
     }
 }
 
